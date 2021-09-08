@@ -68,7 +68,6 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('Join & Try', url='https://t.me/joinchat/_T2AlAivCsVkZWRl')
-                    
                     ]
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
