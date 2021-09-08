@@ -67,7 +67,8 @@ async def start(bot, cmd):
                 buttons = [
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('Join & Try', url='https://t.me/joinchat/_T2AlAivCsVkZWRl')
+                        InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
+                    ]
                     ]
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
@@ -192,7 +193,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Update Channel', url='https://t.me/joinchat/_T2AlAivCsVkZWRl'),
-            InlineKeyboardButton('Movie Update Bot', url='https://github.com/subinps/MovieBackup_bot')
+            InlineKeyboardButton('Source Code', url='https://t.me/CCMovieUpdateBot')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/Anjalinas'>Anjalina</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/CCMovieUpdateBot'>Click here</a>\nUpdate Channel : <a href='https://t.me/joinchat/TvZ2gTwHGmk3ZTVl'></a> </b check🔥>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
