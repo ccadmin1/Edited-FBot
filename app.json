@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/subinps/Media-Search-bot",
-    "repository": "https://github.com/subinps/Media-Search-bot",
+    "website": "https://github.com/ccadmin1/Media-Search-bot-1",
+    "repository": "https://github.com/ccadmin1/Media-Search-bot-1",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
