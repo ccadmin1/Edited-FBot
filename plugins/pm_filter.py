@@ -56,6 +56,9 @@ async def filter(client, message):
                 file_id = file.file_id
                 filename = f"🚀[{get_size(file.file_size)}]📥{file.file_name}"
                 btn.append(
+                    [InlineKeyboardButton(text="🚨 Subscribe Channel And Try 🚨", url="https://t.me/joinchat/_T2AlAivCsVkZWRl")]
+                    )
+                btn.append(
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
         else:
