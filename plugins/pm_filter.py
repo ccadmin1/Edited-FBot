@@ -610,7 +610,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
                 if f_caption is None:
 
-                    f_caption = f"{title}"
+                    f_caption = f"<b>🗃 ғɪʟᴇ ɴᴀᴍᴇ :</b>\n<code>{file_name}</code>"
 
                 buttons = [
 
