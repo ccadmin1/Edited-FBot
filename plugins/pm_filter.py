@@ -166,13 +166,11 @@ async def filter(client, message):
 
             if poster:
             
-                await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_photo(photo=poster, caption=f"<b>●🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             else:
 
-            thumbnail_url ="https://telegra.ph/file/8b1b6e03708c001de80a3.jpg"
-
-                await message.reply_photo(photo=thumbnail_url, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_message(f"<b>●🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             return
 
@@ -200,13 +198,11 @@ async def filter(client, message):
 
         if poster:
 
-            await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>●🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
         else:
 
-        thumbnail_url ="https://telegra.ph/file/8b1b6e03708c001de80a3.jpg"
-
-            await message.reply_photo(photo=thumbnail_url, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_message(f"<b>●🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
 
 @Client.on_message(filters.text & filters.group & filters.incoming & filters.chat(AUTH_GROUPS) if AUTH_GROUPS else filters.text & filters.group & filters.incoming)
@@ -300,10 +296,8 @@ async def group(client, message):
                 print(buttons)
 
             else:
-          
-            thumbnail_url ="https://telegra.ph/file/8b1b6e03708c001de80a3.jpg"
 
-                await message.reply_photo(photo=thumbnail_url, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+                await message.reply_message(f"<b>🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
                 print(buttons)
 
@@ -333,15 +327,13 @@ async def group(client, message):
 
         if poster:
 
-            await message.reply_photo(photo=poster, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_photo(photo=poster, caption=f"<b>●🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
             print("ff", buttons)
 
         else:
 
-        thumbnail_url ="https://telegra.ph/file/8b1b6e03708c001de80a3.jpg"
-
-            await message.reply_photo(photo=thumbnail_url, caption=f"<b>●🎪Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
+            await message.reply_message(f"<b>●🎬Tɪᴛʟᴇ :</b> <code>{search}</code>\n\n<b>●ᴄʜᴀɴɴᴇʟ ʟɪɴ𝐊s : [𝙅𝙊𝙄𝙉](https://telegram.dog/cinemacollections)\n● ᴘᴏᴡᴇʀᴇᴅ ʙʏ : cιɴᴇмᴀcoʟʟᴇcтιoɴs™</b>\n\n<b>🗣 Iɴ Oʀᴅᴇʀ Tᴏ Gᴇᴛ Tʜᴇ Mᴏᴠɪᴇ Rᴇϙᴜᴇsᴛᴇᴅ Bʏ Yᴏᴜ ɪɴ Oᴜʀ Gʀᴏᴜᴘs, Yᴏᴜ Wɪʟʟ Hᴀᴠᴇ Tᴏ Jᴏɪɴ Oᴜʀ Oғғɪᴄɪᴀʟ Cʜᴀɴɴᴇʟ Fɪʀsᴛ. Aғᴛᴇʀ Tʜᴀᴛ, Tʀʏ Aᴄᴄᴇssɪɴɢ Tʜᴀᴛ Mᴏᴠɪᴇ Aɢᴀɪɴ Fʀᴏᴍ Oᴜʀ Gʀᴏᴜᴘ. I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴀᴛ Mᴏᴠɪᴇ Pʀɪᴠᴀᴛᴇʟʏ 🙈</b>", reply_markup=InlineKeyboardMarkup(buttons))
 
     
 
