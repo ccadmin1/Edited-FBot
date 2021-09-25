@@ -217,12 +217,6 @@ async def group(client, message):
 
         btn = []
 
-        btn.append(
-
-            [InlineKeyboardButton(text="🚨 Subscribe Channel And Try 🚨", url="https://t.me/joinchat/_T2AlAivCsVkZWRl")]
-
-            )
-
         search = message.text
 
         nyva=BOT.get("username")
