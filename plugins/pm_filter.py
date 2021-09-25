@@ -116,7 +116,7 @@ async def filter(client, message):
 
                 file_id = file.file_id
 
-                filename = f"🚀[{get_size(file.file_size)}]📥{file.file_name}"
+                filename = f"❰{get_size(file.file_size)}❱➤{file.file_name}"
 
                 btn.append(
 
@@ -243,7 +243,7 @@ async def group(client, message):
 
                 file_id = file.file_id
 
-                filename = f"🚀[{get_size(file.file_size)}] 📥{file.file_name}"
+                filename = f"❰{get_size(file.file_size)}❱➤{file.file_name}"
 
                 btn.append(
 
